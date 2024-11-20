@@ -1,0 +1,73 @@
+.DS_Store
+*.so.*
+*.tar.gz
+*.egg-info*
+
+*.ttf
+*.jpg
+
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+detectron2.egg-info/
+build/
+dist/
+.cache/
+.cache_back/
+.cache_new_gene/
+get_gt_files.py
+test_cache_data.py
+
+# pytorch/python/numpy formats
+#*.pth
+#*.pkl
+*.npy
+*.engine
+*.onnx
+events.out.tfevents*
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# VSCode editor settings
+.vscode
+
+# project dirs
+/models
+datasets/*
+!datasets/
+datasets/NOCS/*
+!datasets/NOCS/
+!datasets/NOCS/obj_models
+datasets/NOCS/obj_models/mug_meta.pkl
+datasets/NOCS/REAL/*
+!datasets/NOCS/REAL/image_set
+datasets/NOCS/CAMERA/*
+!datasets/NOCS/CAMERA/
+!datasets/NOCS/CAMERA/image_set
+!datasets/NOCS/obj_models/cr_normed_mean_model_points_spd.pkl
+!datasets/NOCS/obj_models/real_test_spd.pkl
+!datasets/NOCS/obj_models/real_train_spd.pkl
+!datasets/NOCS/obj_models/abs_scale.pkl
+!datasets/NOCS/test_init_poses
+
+output/*
+!output/
+output/NOCS_REAL/*
+!output/NOCS_REAL/
+!output/NOCS_REAL/trained
+
+#external/*
